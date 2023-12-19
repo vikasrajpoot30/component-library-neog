@@ -4,10 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Component Library</title>
+    <!-- Way 1 of doing CSS 
+      <style>
+      body {
+        color: red;
+      }
+     </style> -->
+
+     <!-- 3rd way of doing CSS-->
+     <link href="styles.css" rel="stylesheet"/>
   </head>
+   
+
+
 
   <body>
-    <h1>Vikas Rajpoot's Component Library</h1>
+    <!--Way 2 of doing CSS stylr attribute -->
+    <h1 id="lib-header">Vikas Rajpoot's Component Library</h1>
     <p>
       I am attending neog.Pcamp and I want to make a Library which would make
       all my projects look good and consistent
@@ -28,7 +41,7 @@
     <h3>Fluid container</h3>
     <p>This is fluid container it will go till the end of the page</p>
     <h3>Center container</h3>
-    <div>This is centered container it will go till the center of the page</div>
+    <div class="para">This is centered container it will go till the center of the page</div>
     <hr />
 
     <h2>@ Links</h2>
@@ -106,7 +119,7 @@
 <hr>
 <h2>@ footer</h2>
 <footer>
-  <div>some small heading inside the footer</div>
+  <div class="para">some small heading inside the footer</div>
   <ul>
     <li>social link1</li>
     <li>social link2</li>
