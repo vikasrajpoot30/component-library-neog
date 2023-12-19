@@ -4,104 +4,123 @@
 
 body {
   font-family: "PT Serif", serif;
+  margin:0px;
 }
 
-:root{
-    --primary-color:rgb(26, 11, 225);
-    --dark-gray:rgb(148 163 184);
-
+:root {
+  --primary-color: rgb(26, 11, 225);
+  --dark-gray: rgb(148 163 184);
 }
 
 /*containers */
 
-.container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
-.center-container{
-    margin: auto;
-    max-width: 600px;
+.center-container {
+  margin: auto;
+  max-width: 600px;
 }
-hr{
-    margin:2rem 0rem;
+hr {
+  margin: 2rem 0rem;
 }
 /*links*/
-.link{
-    text-decoration: none;
-   padding:0.5rem 1rem;
-
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
-.primary-link{
-    background-color: var(--primary-color);
-    color: white;
-    border-radius: 0.5rem;
-
+.primary-link {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 0.5rem;
 }
-.secondary-link{
-    color: var(--primary-color);
-    border-radius: 0.5rem;
-    border:1px solid var(--primary-color);
-
-
+.secondary-link {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
 }
 /** look into BEM naming convention for CSS **/
 /**lists**/
 
-
-.list-non-bullet{
-    list-style: none;
+.list-non-bullet {
+  list-style: none;
 }
-.list-item-inline{
-    display: inline;
-    padding: 0rem 1rem;
+.list-item-inline {
+  display: inline;
+  padding: 0rem 1rem;
 }
 
 /** nav **/
-.navigation{
-    background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
-    border-bottom-left-radius: 1rem;
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
 }
- .nav-brand{
-font-weight: bold;
-font-size: 1.1rem;
+.nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 .navigation .link {
-    background-color: rgb(31, 226, 83);
-    color: white;
-   
+  background-color: rgb(31, 226, 83);
+  color: white;
 }
 .nav-pills {
-    color: white;
-    
+  color: white;
 }
-.navigation .nav-pills{
-    text-align: right;
+.navigation .nav-pills {
+  text-align: right;
 }
-.navigation .link-active{
-    font-weight: bold;
+.navigation .link-active {
+  font-weight: bold;
 }
 
 /** header **/
 
-.hero{
-padding: 2rem;
-
+.hero {
+  padding: 2rem;
 }
 
-.hero .hero-img{
-    max-width: 350px;
-    display: block;
-    margin: auto;
-
+.hero .hero-img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
 }
-.hero .hero-heading{
-    padding: 1rem;
-    font-size: 2rem;
-    color: var(--dark-gray);
+.hero .hero-heading {
+  padding: 1rem;
+  font-size: 2rem;
+  color: var(--dark-gray);
+}
+
+/** sections**/
+.section{
+    padding: 2rem;
+}
+.section h1 {
+  text-align: center;
+  
+}
+.ow{
+    background-color: #cbd5e1;
 }
 
 /** footer **/
 
+.footer{
+    background-color: var(--primary-color);
+    padding: 0.5rem  1rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius: 1rem;
 
+
+
+}
+.footer .link{
+    color: white;
+}
+
+.footer ul {
+    padding-block-start: 0px;
+}
