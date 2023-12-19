@@ -7,7 +7,8 @@ body {
 }
 
 :root{
-    --primary-color:rgb(232, 26, 8);
+    --primary-color:rgb(26, 11, 225);
+    --dark-gray:rgb(148 163 184);
 
 }
 
@@ -54,4 +55,53 @@ hr{
     display: inline;
     padding: 0rem 1rem;
 }
+
+/** nav **/
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+ .nav-brand{
+font-weight: bold;
+font-size: 1.1rem;
+}
+.navigation .link {
+    background-color: rgb(31, 226, 83);
+    color: white;
+   
+}
+.nav-pills {
+    color: white;
+    
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/** header **/
+
+.hero{
+padding: 2rem;
+
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+.hero .hero-heading{
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--dark-gray);
+}
+
+/** footer **/
+
 
