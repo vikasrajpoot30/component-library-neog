@@ -3,139 +3,106 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Component Library</title>
-    <!-- Way 1 of doing CSS 
-      <style>
-      body {
-        color: red;
-      }
-     </style> -->
-
-     <!-- 3rd way of doing CSS-->
-     <link href="styles.css" rel="stylesheet"/>
+    <title>Vikas Rajpoot portfolio</title>
+    <link href="styles.css" rel="stylesheet" />
   </head>
-  
   <body>
-    <!--Way 2 of doing CSS stylr attribute -->
-    <h1 >Vikas Rajpoot's Component Library</h1>
-    <p>
-      I am attending neog.Pcamp and I want to make a Library which would make
-      all my projects look good and consistent
-    </p>
-    <hr />
+    <!--nav bar here -->
 
-    <h2>@ Typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the 2nd biggest</h2>
-    <p>This pragraph containes <strong>bold </strong>text
-    </p>
-    <p>
-
-      let me show you the normal text. This is free flowing and will wrap at the
-      end like a paragraph.
-    </p>
-    <small>This is a small text , relativley smaller text</small>
-    <hr />
-
-    <h2>@ Container</h2>
-    <h3>Fluid container</h3>
-    <div class="container fluid-container">This is fluid container it will go till the end of the page</divdiv>
-    <h3>Center container</h3>
-    <div class="container center-container">This is centered container it will go till the center of the page</div>
-    <hr />
-
-    <h2>@ Links</h2>
-    <a href="/" class="link primary-link"  >Primary Link</a>
-    <a href="/"  class="link secondary-link">Secondary Link</a>
-
-    <hr />
-    <h2>@ Lists</h2>
-
-    <h3>Unordered lists</h3>
-    <p>this list will not have the bullet</p>
-    <ul class="list-non-bullet">
-      <li>Item one</li>
-      <li>item two</li>
-      <li>item three</li>
-      <li>item four</li>
-    </ul>
-
-    <h3>Unorederd inline list</h3>
-    <ul class="list-non-bullet">
-      <li class="list-item-inline">inline item one</li>
-      <li class="list-item-inline">inline item two</li>
-      <li class="list-item-inline">inline item three</li>
-      <li class="list-item-inline">inline item four</li>
-    </ul>
-
-    <h3>Reverse ordered List</h3>
-    <ol reversed>
-      <li>milk</li>
-      <li>bread</li>
-      <li>oil</li>
-      <li>egg</li>
-    </ol>
-    <hr />
-
-    <h2>@ nav</h2>
     <nav class="navigation container">
+      <div class="nav-brand">IAMDEVELOPER</div>
 
-      <div class="nav-brand">Vikas Rajpoot</div>
-      <ul     class="list-non-bullet nav-pills">
-        <li  class="list-item-inline">
-          <a class="link link-active"    href="/">home</a>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">HOME</a>
         </li>
         <li class="list-item-inline">
-          <a class="link"href="/">products</a>
+          <a class="link" href="projects.html">PROJECTS</a>
         </li>
         <li class="list-item-inline">
-          <a  class="link" href="/">about</a>
+          <a class="link" href="/">RESUME</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">CONTACT ME </a>
         </li>
       </ul>
     </nav>
-    <hr />
 
-    <h2>@ header</h2>
-
+    <!--Header here -->
     <header class="hero">
-      <img
-        src="images/hero.svg"
-        height="250"
-        width="600"
-        class="hero-img"/>
+      <img src="images/hero.svg" height="250" width="600" class="hero-img" />
 
-      <h1 class="hero-heading">Vikas Rajpoot the<span style="color: var(--primary-color)"> Web Developer</span></h1>
+      <h1 class="hero-heading">
+        Vikas Rajpoot the
+        <span style="color: var(--primary-color)"> Web Developer </span>
+      </h1>
     </header>
-<hr>
 
-<h2>@ section</h2>
-<section  class="section"  >
-  <div class="container center-container">
-    <h1>white section</h1>
-    <p>We're always striving to connect developers more seamlessly with the tools and information they need to easily build projects on the open Web. Since our beginnings in 2005, Mozilla and the community have amassed around 45,000 pages of free, open-source content.</p>
-  
-  </div>
-  </section>
-  <section class="section ow">
-  <div class="container center-container">
-  <h1 class="section ow">off white section</h1>
-  <p>We're always striving to connect developers more seamlessly with the tools and information they need to easily build projects on the open Web. Since our beginnings in 2005, Mozilla and the community have amassed around 45,000 pages of free, open-source content.</p>
-</div>
+    <!--section 3-->
+    <section class="section ow">
+      <div class="container center-container">
+        <h1 class="section ow">Technologies</h1>
+        <p>
+          I'm familier with HTML5,CSS3,Javascript,Git,NodeJS,ReactJS, and Web
+          hosting.
+        </p>
+      </div>
+    </section>
+    <!--section 2 -->
+    <section class="section">
+      <div class="container center-container">
+        <h1>Projects</h1>
+        <p>
+          I like to showcase my projects and thus you can see my projects hosted
+          online
+        </p>
+        <a href="projects.html" class="link primary-link">Browse Projects</a>
+      </div>
+    </section>
+    <!--section 3 -->
+    <section class="section ow">
+      <div class="container center-container">
+        <h1 class="section ow">Blogs</h1>
+        <p>
+          I'm also working on some technical and non-technical blogs.I like to
+          document my learning journey.
+        </p>
+        <a href="https://vikasrajpoot.hashnode.dev/" class="link secondary-link">Read Blogs</a>
+      </div>
+    </section>
+    <!--section 4 BOOKS -->
+    <section class="section">
+      <div class="container center-container">
+        <h1>Books</h1>
+        <p>
+          I read fiction and non-fiction books, here are books i have read so
+          far.
+        </p>
+        <a href="/" class="link primary-link">Browse Books</a>
+      </div>
+    </section>
 
-</section>
+    <!--footer-->
+    <footer class="footer">
+      <div class="footer-header">CONTACT ME</div>
+      <ul class="social-links">
+        <li class="list-item-inline">
+          <a class="link" href="https://www.github.com/vikasrajpoot30/">Github</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://www.linkedin.com/in/vikasrajpoot30/">LinkedIn</a>
+        </li>
 
-<hr>
-<h2>@ footer</h2>
-<footer class="footer">
-  <div class="footer-header" >some small heading inside the footer</div>
-  <ul class="social-links">
-    <li class="list-item-inline"> <a class="link"  href="/" > social link1</a></li>
-    <li class="list-item-inline"> <a class="link" href= "/" >social link2</a></li>
-    <li class="list-item-inline"> <a class="link" href="/" >social3</a></li>
-  </ul>
-</footer>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/Vikasrajpoot_30">Twitter</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://instagram.com/Vikasrajpoot_30">Instagram</a>
+        </li>
+      </ul>
+    </footer>
 
-    <!-- <div style="height: 30vh"></div> -->
-</body>
 
+
+  </body>
 </html>

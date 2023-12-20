@@ -8,8 +8,8 @@ body {
 }
 
 :root {
-  --primary-color: rgb(11, 0, 167);
-  --dark-gray: rgb(209, 209, 209);
+  --primary-color: rgb(26, 11, 225);
+  --dark-gray: rgb(148 163 184);
 }
 
 /*containers */
@@ -57,16 +57,14 @@ hr {
   color: white;
   padding: 1rem;
   border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
 }
 .nav-brand {
   font-weight: bold;
   font-size: 1.1rem;
 }
 .navigation .link {
-  background-color: rgb(170, 171, 171);
+  background-color: rgb(31, 226, 83);
   color: white;
-  border-radius: 1rem;
 }
 .nav-pills {
   color: white;
@@ -93,30 +91,28 @@ hr {
   padding: 1rem;
   font-size: 2rem;
   color: var(--dark-gray);
-  text-align: center;
 }
 
 /** sections**/
 .section{
-    padding: 1rem;
+    padding: 2rem;
 }
 .section h1 {
   text-align: center;
   
 }
 .ow{
-    background-color: #d8dde2;
+    background-color: #cbd5e1;
 }
 
 /** footer **/
 
 .footer{
-    background-color: rgb(56, 56, 56);
-    padding: 1.5rem  1.5rem;
+    background-color: var(--primary-color);
+    padding: 0.5rem  1rem;
     text-align: center;
     color:white;
     border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
 
 
 
@@ -127,9 +123,4 @@ hr {
 
 .footer ul {
     padding-block-start: 0px;
-}
-.footer .footer-header{
-  font-weight: bold;
-  font-size: large;
-  
 }
